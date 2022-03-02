@@ -1,0 +1,398 @@
+/* Thumbnail */
+
+position: relative;
+width: 1920px;
+height: 960px;
+
+background: #02B056;
+
+
+/* Glare */
+
+position: absolute;
+width: 1000px;
+height: 1000px;
+left: 905px;
+top: 0px;
+
+opacity: 0.7;
+
+
+/* Rectangle 85 */
+
+position: absolute;
+left: 63.99%;
+right: -17.39%;
+top: 26.47%;
+bottom: 20.15%;
+
+background: radial-gradient(217.68% 217.68% at 27.97% 49.05%, #5AE9FD 0%, rgba(90, 233, 253, 0) 100%);
+border: 75.1452px solid #00E29A;
+filter: blur(358.139px);
+border-radius: 639.534px;
+transform: matrix(-0.97, 0.23, 0.23, 0.97, 0, 0);
+
+
+/* Rectangle 83 */
+
+position: absolute;
+visibility: hidden;
+left: 72.9%;
+right: -22.42%;
+top: 29.5%;
+bottom: 20.97%;
+
+background: radial-gradient(50% 50% at 50% 50%, #38FF70 0%, rgba(74, 224, 116, 0.65) 100%);
+mix-blend-mode: color;
+border-radius: 712.074px;
+transform: matrix(-0.94, 0.35, 0.34, 0.94, 0, 0);
+
+
+/* Rectangle 86 */
+
+position: absolute;
+left: 39.2%;
+right: -9.54%;
+top: 0.54%;
+bottom: 31.41%;
+
+background: radial-gradient(158.99% 50% at 50% 50%, #8B78FF 0%, rgba(99, 73, 255, 0.37) 100%);
+mix-blend-mode: screen;
+filter: blur(393.286px);
+border-radius: 786.572px;
+transform: matrix(-0.84, 0.54, 0.54, 0.84, 0, 0);
+
+
+/* Rectangle 87 */
+
+position: absolute;
+left: 102.27%;
+right: -52.8%;
+top: 32.53%;
+bottom: 17.03%;
+
+background: conic-gradient(from 180deg at 50% 50%, #FFE072 0deg, rgba(255, 216, 75, 0) 360deg);
+mix-blend-mode: normal;
+filter: blur(447.391px);
+border-radius: 875.792px;
+transform: matrix(-0.78, -0.62, -0.62, 0.78, 0, 0);
+
+
+/* Rectangle 88 */
+
+position: absolute;
+left: 86.69%;
+right: -61.75%;
+top: -0.86%;
+bottom: 25.79%;
+
+mix-blend-mode: lighten;
+border-radius: 875.792px;
+transform: matrix(-0.94, 0.35, 0.34, 0.94, 0, 0);
+
+
+/* Heading */
+
+position: absolute;
+width: 699px;
+height: 300px;
+left: 42px;
+top: 318px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 125%;
+/* or 30px */
+letter-spacing: -0.02em;
+
+/* White */
+color: #FFFFFF;
+
+
+
+/* Blocks */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 664px;
+height: 68px;
+left: calc(50% - 664px/2 - 586px);
+top: calc(50% - 68px/2 + 87px);
+
+
+
+/* Count */
+
+position: absolute;
+width: 924px;
+height: 90px;
+left: 36px;
+top: 667px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 125%;
+/* identical to box height, or 90px */
+letter-spacing: -0.05em;
+
+
+
+/* Count */
+
+position: absolute;
+width: 877px;
+height: 90px;
+left: 42px;
+top: 782px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 125%;
+/* identical to box height, or 90px */
+letter-spacing: -0.05em;
+
+
+
+/* Meta */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 0px;
+height: 56px;
+left: 682px;
+top: 656px;
+
+
+
+/* Line */
+
+position: static;
+width: 0px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+opacity: 0.3;
+/* Primary/300 */
+border: 1px solid #C4B5FD;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+
+
+/* Logotype / Dark */
+
+position: absolute;
+width: 724px;
+height: 76px;
+left: 90px;
+top: 181px;
+
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 205px;
+height: 64px;
+left: 507px;
+top: 6px;
+
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+
+position: absolute;
+width: 205px;
+height: 64px;
+left: calc(50% - 205px/2 + 194.5px);
+top: calc(50% - 64px/2);
+
+background: #02B056;
+border: 2px solid #2ECE6E;
+box-sizing: border-box;
+border-radius: 12px;
+
+
+/* Text */
+
+position: static;
+width: 92px;
+height: 40px;
+left: 56.5px;
+top: 12px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+
+/* Primary/100 */
+color: #EDE9FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 18px;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+
+position: absolute;
+width: 205px;
+height: 64px;
+left: calc(50% - 205px/2 - 57.5px);
+top: calc(50% - 64px/2);
+
+background: #02B056;
+border: 2px solid #2ECE6E;
+box-sizing: border-box;
+border-radius: 12px;
+
+
+/* Text */
+
+position: static;
+width: 41px;
+height: 40px;
+left: 82px;
+top: 12px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+
+/* Primary/100 */
+color: #EDE9FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 18px;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+
+position: absolute;
+width: 204px;
+height: 64px;
+left: calc(50% - 204px/2 - 816px);
+top: calc(50% - 64px/2 - 261px);
+
+background: #02B056;
+border: 2px solid #2ECE6E;
+box-sizing: border-box;
+border-radius: 12px;
+
+
+/* Text */
+
+position: static;
+width: 109px;
+height: 40px;
+left: 47.5px;
+top: 12px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height, or 286% */
+
+/* Primary/100 */
+color: #EDE9FE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 18px;
+
+
+/* Logo completo AGTECH - versão fundo colorido 1 */
+
+position: absolute;
+width: 392px;
+height: 120px;
+left: 36px;
+top: 47px;
+
+background: url(Logo completo AGTECH - versão fundo colorido.png);
+
+
+/* 4sugar-cane-sunset-plantation-beautiful 1 */
+
+position: absolute;
+width: 810px;
+height: 540px;
+left: 1025px;
+top: 263px;
+
+
+
+/* 4sugar-cane-sunset-plantation-beautiful 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(WhatsApp Image 2020-12-02 at 12.41.00 (1).jpg);
